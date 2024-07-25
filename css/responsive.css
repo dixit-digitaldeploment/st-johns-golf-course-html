@@ -3,6 +3,81 @@
 }
 
 @media (max-width: 767px) {
+  .timeline-article .content-left-container,
+  .timeline-article .content-right-container {
+    max-width: 100%;
+  }
+  .timeline-article {
+    flex-wrap: wrap;
+    padding-left: 30px;
+    overflow: visible;
+  }
+  #conference-timeline .conference-center-line {
+    left: 30px;
+  }
+  .timeline-inner-left {
+    text-align: left;
+    padding-right: 0;
+  }
+  .timeline-level-one,
+  .timeline-level-two {
+    flex-wrap: wrap;
+    overflow: visible;
+    padding-left: 40px;
+    padding-right: 20px;
+  }
+  .timeline-inner-left,
+  .timeline-inner-right {
+    max-width: 100%;
+  }
+  .timeline-article .circle_yw {
+    left: 0px;
+  }
+  .timeline-article .image_year_row {
+    flex-wrap: wrap;
+  }
+  .timeline-article .section_year {
+    margin: 20px 0px;
+    display: none;
+  }
+  .img_left .image_year_row .section_year {
+    right: auto;
+    left: 0px;
+  }
+  .odd.timeline-article .content-right-container,
+  .even.timeline-article .content-right-container {
+    padding-top: 20px;
+    padding-left: 0px;
+  }
+  .section_img {
+    padding-top: 30px;
+  }
+  .even.timeline-article .section_img {
+    margin-bottom: 20px;
+  }
+  .timeline-inner-left,
+  .timeline-inner-right {
+    padding-left: 40px;
+  }
+  .timeline-article.even .circle_yw::before {
+    right: auto;
+    left: 15px;
+  }
+  .timeline-article.even .circle_yw::after {
+    right: -115px;
+    left: auto;
+  }
+  .timeline-article .content-left {
+    text-align: left;
+  }
+  .even.timeline-article .content-left-container {
+    padding-left: 0px;
+    padding-right: 0px;
+    order: 2;
+  }
+  .timeline-article .circle_yw {
+    top: 0px;
+  }
   .event_list_info .tribe-events-calendar-list__event-description {
     display: block !important;
   }
@@ -245,6 +320,7 @@
   }
   .faq_main .search-filter-title {
     grid-template-columns: auto;
+    grid-row-gap: 10px;
   }
   .page_title {
     padding-bottom: 15px !important;
@@ -356,6 +432,9 @@
   .filterWrap form {
     display: block !important;
     max-width: 100% !important;
+  }
+  .filterWrap form .filter_box {
+    margin-bottom: 10px;
   }
   .nav_section {
     margin-top: -55px;
