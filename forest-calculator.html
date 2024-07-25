@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Forest Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="css/owl.carousel.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="float_btn">
+        <a href="#"> <img src="img/f1.svg" alt="">Conditions</a>
+    </div>
+    <header class="main_header">
+        <div class="navbar navbar-expand-xl  ">
+            <div class="container">
+                <div class="logo_wrap">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="icon-bar top"></span>
+               <span class="icon-bar midlde"></span>
+               <span class="icon-bar last"></span>
+               </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <div class="top_header_cont">
+                        <div class="top_menu">
+                            <ul class="top_inner_menu">
+                                <li> <a href="#">ONLINE REPORTING PORTAL </a> </li>
+                                <li> <a href="#"> ONLINE PAYMENTS</a> </li>
+                                <li> <a href="#">NEWS</a> </li>
+                                <li> <a href="#">CALENDAR</a> </li>
+                                <li> <a href="#">CAREERS</a> </li>
+                                <li>
+                                    <a href="#"><img src="img/conservancy.svg" alt=""></a>
+                                </li>
+                            </ul>
+                            <div class="top_search">
+                                <img src="img/search.png" style="max-height: 35px;width: 180px;" alt="">
+                            </div>
+                            <div class="select_language">
+                                <select class="form_control">
+                              <option>Translate</option>
+                              <option>English</option>
+                              <option>Spain</option>
+                           </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav_bottom  ">
+                        <ul class="navbar-nav ">
+                            <li class="nav-item ">
+                                <a class="nav-link" href="#">GROUNDWATER USERS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">SCIENCE & DATA</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#"> Events Calendar </a> </li>
+                                    <li><a href="#"> District News </a> </li>
+                                    <li><a href="#"> How To’s, Guides And Webinars </a> </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">AQUIFER PROTECTION</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"> EDUCATION </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"> <img src="img/logo-2.png" style="max-width: 250px;" alt=""> </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="main_wrapper" style="">
+        <div class="main_breadcrumb ">
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">
+                            <a href="#"> Home</a>
+                        </li>
+                        <li class="breadcrumb-item"><a href="#">page title </a></li>
+                        <li class="breadcrumb-item"><a href="#">page title </a></li>
+                        <li class="breadcrumb-item active" aria-current="page">page title</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <div class="calc_wrap">
+            <div class="container">
+
+                <div class="intr_txt">
+
+
+                    <h1>2024 Critical Period Forecast Calculator</h1>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                        Open modal
+                      </button>
+                    <p>
+                        This auto-fill calculator allows you to accurately determine your authorized groundwater withdrawal amount for the current total number of days that a stage of Critical Period Management (CPM) has been in effect in the San Antonio and Uvalde Pools. To
+                        use, simply select the pool for your area along with the corresponding year of critical period and the program will automatically display the stage(s), number of days, and applicable reduction rates. To calculate your accurate
+                        reduction, enter your annual authorized groundwater withdrawal amount in the appropriate box and click the Calculate button. Your new authorized amount is displayed in red. Reset the calculator each time to repeat the process as
+                        necessary. </p>
+
+                    <p>
+                        If you wish to forecast your possible end-of-year reduction please use the Critical Period Forecast Calculator or the Interactive Critical Period Calculator if you are an irrigation user who has filed a Notice of Intent to Finish Out a Crop form.
+
+                    </p>
+                </div>
+
+                <div class="row calc_row">
+
+                    <div class="col-md-6 col_left">
+
+                        <div class="clc_content">
+
+                            <div class="clc_box">
+                                <div class="clc_title">
+                                    <h2>CPM FORECAST CALCULATOR</h2>
+                                </div>
+                                <div class="clc_control">
+                                    <div class="form-group">
+                                        <label class="title" for="">Select</label>
+                                        <select id="" class="form-control">
+                                            <option>Uvalde</option>
+                                            <option class="">All</option>
+                                            <option class="">1</option>
+                                            <option class="">2</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="title" for=""><strong>Enter Authorized Amount:</strong></label>
+                                        <input type="text" id="" class="form-control" placeholder="1" name="" aria-label="">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="title" for=""><strong>Estimate Total Days For This Year in No Stage:</strong></label>
+                                        <input type="text" id="" class="form-control" placeholder="0" name="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="title" for=""><strong>Estimate Total Days For This Year in Stage 1:</strong></label>
+                                        <input type="text" id="" class="form-control" placeholder="0" name="">
+                                    </div>
+
+                                    <div class="btn-right text-right">
+                                        <a href="#" class="btn_sm">Calculate</a>
+                                    </div>
+
+
+
+                                </div>
+
+
+                            </div>
+                            <div class="clc_data">
+
+                                <span class="h5">CALCULATED DATA</span>
+
+                                <div class="table_grid">
+
+
+
+                                    <table class="table">
+
+                                        <tbody>
+                                            <tr>
+                                                <td>Authoried Amount Before Reductions</td>
+                                                <td><strong>Pending</strong> </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Current Critical Period Reduction</td>
+                                                <td> <strong>Pending</strong> </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td style="background: #D32E09;color: #fff;">New Author Amount After Reduction</td>
+                                                <td><strong style="color: #D32E09;">Pending </strong></td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+
+                                    <ul>
+                                        <li>Acre-ft.</li>
+                                        <li>Acre-ft.</li>
+                                        <li>Acre-ft.</li>
+                                    </ul>
+
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col_right">
+
+                        <div class="data_table">
+
+                            <div class="main-table">
+                                <div class="table-wraper">
+                                    <h3>Helpful Calculation Data</h3>
+                                    <table class="table">
+
+                                        <tbody>
+                                            <tr>
+                                                <td>Days so far this year</td>
+                                                <td>266</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Days so far this year</td>
+                                                <td>266</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="background: #194F7E;color: #fff;">SA POOL</td>
+                                                <td style="background: #194F7E;color: #fff;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Days so far this year</td>
+                                                <td>266</td>
+                                            </tr>
+
+
+
+
+
+                                        </tbody>
+                                    </table>
+                                </div>
+
+
+
+                            </div>
+
+
+
+
+                        </div>
+
+                        <div class="main-table">
+                            <div class="table-wraper">
+                                <span class="h5">SAN ANTONIO POOL</span>
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Stage</th>
+                                            <th>%</th>
+                                            <th>Days in Stage</th>
+                                            <th>Start</th>
+                                            <th>End</th>
+                                            <th>Reduction</th>
+
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td style="background: #FBD35B;"><strong>Stage 2</strong></td>
+                                            <td>35.0%</td>
+                                            <td>24</td>
+                                            <td>01/01/2024</td>
+                                            <td>01/01/2024</td>
+                                            <td>2.30%</td>
+
+                                        </tr>
+
+                                        <tr>
+                                            <td style="background: #F5AF5E"><strong>Stage 2</strong></td>
+                                            <td>35.0%</td>
+                                            <td>24</td>
+                                            <td>01/01/2024</td>
+                                            <td>01/01/2024</td>
+                                            <td>2.30%</td>
+
+                                        </tr>
+
+
+
+                                    </tbody>
+                                </table>
+                            </div>
+
+
+
+                        </div>
+
+                        <div class="main-table">
+                            <div class="table-wraper">
+                                <span class="h5">SAN ANTONIO POOL</span>
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Stage</th>
+                                            <th>%</th>
+                                            <th>Days in Stage</th>
+                                            <th>Start</th>
+                                            <th>End</th>
+                                            <th>Reduction</th>
+
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td style="background: #FBD35B;"><strong>Stage 2</strong></td>
+                                            <td>35.0%</td>
+                                            <td>24</td>
+                                            <td>01/01/2024</td>
+                                            <td>01/01/2024</td>
+                                            <td>2.30%</td>
+
+                                        </tr>
+
+                                        <tr>
+                                            <td style="background: #F5AF5E"><strong>Stage 2</strong></td>
+                                            <td>35.0%</td>
+                                            <td>24</td>
+                                            <td>01/01/2024</td>
+                                            <td>01/01/2024</td>
+                                            <td>2.30%</td>
+
+                                        </tr>
+
+
+
+                                    </tbody>
+                                </table>
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <div class="modal site-modal" id="myModal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h3 class="modal-title">CURRENT AQUIFER CONDITIONS</h3>
+                    <button type="button" class="close" data-dismiss="modal"><img src="img/close-circle.svg" alt="close-icon"> </button>
+                </div>
+
+
+                <div class="modal-body">
+                    <div class="row stg_row">
+                        <div class="col-md-6 col_left">
+                            <div class="stg_info">
+                                <h4>SAN ANTONIO POOL</h4>
+                                <div class="stg_img">
+                                    <img src="img/stg-img.svg">
+                                </div>
+
+                                <h3>35% CURRENT REDUCTION</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col_right">
+                            <div class="stg_info">
+                                <h4>UVALDE POOL</h4>
+                                <div class="stg_img">
+                                    <img src="img/stg-img.svg">
+                                </div>
+
+                                <h3>44% CURRENT REDUCTION</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="st_alert">
+                        <span><img src="img/caution.svg" alt="alert-icon"></span>
+                        <h5>Critical Period/Drought Management</h5>
+                    </div>
+
+
+
+                    <div class="row day_row">
+                        <div class="col-md-3 day_col">
+                            <div class="day_info">
+                                <h4>San Antonio (J-17)</h4>
+                                <h3>640.6 <span>10 DAY AVERAGE</span></h3>
+                            </div>
+
+                            <div class="day_grid">
+                                <div class="grid_wrap">
+                                    <div class="day_item">
+                                        <div class="day_circle">
+                                            639.8
+                                        </div>
+                                    </div>
+                                    <h6>TODAY</h6>
+                                </div>
+                                <div class="grid_wrap ">
+                                    <div class="day_item sm" style="height: 36px;">
+                                        <div class="day_circle">
+                                            639.6
+                                        </div>
+                                    </div>
+                                    <h6>YESTERDAY</h6>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-3 day_col">
+                            <div class="day_info">
+                                <h4>San Antonio (J-17)</h4>
+                                <h3>640.6 <span>10 DAY AVERAGE</span></h3>
+                            </div>
+
+                            <div class="day_grid">
+                                <div class="grid_wrap">
+                                    <div class="day_item">
+                                        <div class="day_circle">
+                                            639.8
+                                        </div>
+                                    </div>
+                                    <h6>TODAY</h6>
+                                </div>
+                                <div class="grid_wrap ">
+                                    <div class="day_item sm" style="height: 36px;">
+                                        <div class="day_circle">
+                                            639.6
+                                        </div>
+                                    </div>
+                                    <h6>YESTERDAY</h6>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-3 day_col">
+                            <div class="day_info">
+                                <h4>San Antonio (J-17)</h4>
+                                <h3>640.6 <span>10 DAY AVERAGE</span></h3>
+                            </div>
+
+                            <div class="day_grid">
+                                <div class="grid_wrap">
+                                    <div class="day_item">
+                                        <div class="day_circle">
+                                            639.8
+                                        </div>
+                                    </div>
+                                    <h6>TODAY</h6>
+                                </div>
+                                <div class="grid_wrap ">
+                                    <div class="day_item sm" style="height: 36px;">
+                                        <div class="day_circle">
+                                            639.6
+                                        </div>
+                                    </div>
+                                    <h6>YESTERDAY</h6>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-3 day_col">
+                            <div class="day_info">
+                                <h4>San Antonio (J-17)</h4>
+                                <h3>640.6 <span>10 DAY AVERAGE</span></h3>
+                            </div>
+
+                            <div class="day_grid">
+                                <div class="grid_wrap">
+                                    <div class="day_item">
+                                        <div class="day_circle">
+                                            639.8
+                                        </div>
+                                    </div>
+                                    <h6>TODAY</h6>
+                                </div>
+                                <div class="grid_wrap ">
+                                    <div class="day_item sm" style="height: 36px;">
+                                        <div class="day_circle">
+                                            639.6
+                                        </div>
+                                    </div>
+                                    <h6>YESTERDAY</h6>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="footer-modal">
+                        <div class="footer-center">
+                            <p>10-Year Annual Recharge Average (2013-2022) 553,230 acre-feet</p>
+                            <ul>
+                                <li> <a href="#">Understanding the reading</a> </li>
+                                <li> <a href="#">Display our readings on your website</a> </li>
+                            </ul>
+                            <p class="small">
+                                Provisional Daily Water Readings as of 9:00 AM, March 15, 2024
+                            </p>
+                        </div>
+                        <div class="modal-logo">
+                            <img src="img/logo.svg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+    <footer class="footer ">
+        <div class="footer-content">
+            <div class="container ">
+                <div class="footer-row  ">
+                    <div class="foot_col col1 ">
+                        <div class="foot_media ">
+                            <ul>
+                                <li>
+                                    <a href=""><img src="img/twitter.svg" alt=""> </a>
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/instagram.svg" alt=""> </a>
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/facebook.svg" alt=""> </a>
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/linkedin.svg" alt=""> </a>
+                                </li>
+                                <li>
+                                    <a href=""><img src="img/pinterst.svg" alt=""> </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <span class="h6">CONTACT</span>
+                        <p>
+                            900 E. Quincy <br> San Antonio, TX 78215
+                        </p>
+                        <p>
+                            <a href="#"> (210) 222-2204 </a> <br> 1-800-292-1047
+                        </p>
+                    </div>
+                    <div class="foot_col  col2  ">
+                        <div class="foot_logo ">
+                            <img src="img/logo-footer.svg " alt="logo ">
+                        </div>
+                        <div class="footmenu ">
+                            <ul class=" ">
+                                <li> <a href="# ">GROUNDWATER USERS</a> </li>
+                                <li> <a href="# ">SCIENCE & DATA</a></li>
+                                <li> <a href="# ">AQUIFER PROTECTION </a></li>
+                                <li> <a href="# ">EDUCATION</a></li>
+                                <li> <a href="# ">ABOUT</a></li>
+                                <li> <a href="# "> ONLINE REPORTING PORTAL</a></li>
+                                <li> <a href="# ">ONLINE PAYMENTS</a></li>
+                                <li> <a href="# ">NEWS</a></li>
+                                <li> <a href="# ">CALENDAR</a></li>
+                                <li> <a href="# ">CAREERS</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="foot_col col3  ">
+                        <div class="foot_logos">
+                            <a href="#"> <img src="img/EAC-LOGO-White.png"> </a>
+                            <a href="#"> <img src="img/eahcp.png"> </a>
+                            <a href="#"> <img src="img/ec-education-logo.png"> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright ">
+                    <p>© 2023 EDWARDS AQUIFER AUTHORITY <a href="#"> TERMS OF USE </a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/expand.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/owlmain.js"></script>
+    <script>
+        (function($) {
+            /* $('.accordion_event > li:eq(0) .acco_title').addClass('active').next().slideDown();*/
+
+            $('.acc__main .acc__title').click(function(j) {
+                var dropDown = $(this).closest('.acc__card').find('.acc__panel');
+
+                $(this).closest('.acc__main').find('.acc__panel').not(dropDown).slideUp();
+
+                if ($(this).hasClass('active')) {
+                    $(this).removeClass('active');
+                } else {
+                    $(this).closest('.acc__main').find('.acc__title.active').removeClass('active');
+                    $(this).addClass('active');
+                }
+
+                dropDown.stop(false, true).slideToggle();
+
+                j.preventDefault();
+            });
+        })(jQuery);
+    </script>
+
+</body>
+
+</html>
