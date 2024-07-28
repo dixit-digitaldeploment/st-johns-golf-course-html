@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Calendar</title>
+    <title>Department Directory</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
@@ -114,17 +114,151 @@
 
 
         <div class="page_title text-center">
-            <h1>Calendar</h1>
+            <h1>County Departments Directory </h1>
         </div>
 
-        <div class="event_wraper">
+        <div class="directory_wrap ">
             <div class="container">
 
-                <h2>this is coming from event plugin</h2>
-                <img src="img/calendar.png" alt="">
+                <div class="row dd_row">
+                    <div class="col-md-4  left_col">
+                        <div class="search-Filter-Block">
+                            <div class="search-box">
+                                <div class="search_input">
+                                    <form role="search" method="get" id="">
+                                        <label for="search" class="title">Search</label>
+                                        <div class="input-group">
+                                            <input type="text" id="" class="form-control" placeholder="Search" id="search" name="s">
+                                            <button class="btn btn-default" id="" type="submit">
+                                     <img src="img/search-icon.svg" alt="search icon">
+                                     </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
 
+                            <div class="filter_box " id="">
+                                <form action="">
+                                    <label class="title" for="SEARCH filter">Sort by</label>
+                                    <select id="" class="form-control">
+                             <option>Alphabetical</option>
+                             <option class="">All</option>
+                             <option class="">1</option>
+                             <option class="">2</option>
+                          </select>
+                                </form>
+                            </div>
+                            <div class="reset">
+                                <a href="#" class="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                        <mask id="mask0_8202_937" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                                           <rect width="24" height="24" fill="#D9D9D9"></rect>
+                                        </mask>
+                                        <g mask="url(#mask0_8202_937)">
+                                           <path d="M13 15.75V14.25H17V15.75H13ZM14.5 21V19.75H13V18.25H14.5V17H16V21H14.5ZM17 19.75V18.25H21V19.75H17ZM18 17V13H19.5V14.25H21V15.75H19.5V17H18ZM20.775 10H18.7C18.2667 8.53333 17.4417 7.33333 16.225 6.4C15.0083 5.46667 13.6 5 12 5C10.05 5 8.39583 5.67917 7.0375 7.0375C5.67917 8.39583 5 10.05 5 12C5 13.2 5.27083 14.3 5.8125 15.3C6.35417 16.3 7.08333 17.1167 8 17.75V15H10V21H4V19H6.35C5.31667 18.1667 4.5 17.1458 3.9 15.9375C3.3 14.7292 3 13.4167 3 12C3 10.75 3.2375 9.57917 3.7125 8.4875C4.1875 7.39583 4.82917 6.44583 5.6375 5.6375C6.44583 4.82917 7.39583 4.1875 8.4875 3.7125C9.57917 3.2375 10.75 3 12 3C14.15 3 16.0375 3.6625 17.6625 4.9875C19.2875 6.3125 20.325 7.98333 20.775 10Z" fill="#122A72"></path>
+                                        </g>
+                                     </svg> Reset
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-8 right_col">
+
+
+                        <div class="acc__main_sd">
+                            <div class="acc__card_sd">
+                                <div class="acc__title_sd">
+
+                                    <h2>Dept Title</h2>
+                                    <div class="acco_sign_sd">
+                                        <img src="img/arrow-down.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="acc__panel_sd">
+
+                                    <div class="dd-cont-row">
+                                        <div class="dd_left">
+                                            <p>
+                                                Welcome to the Lorem Ipsum Generator Pro, the ultimate source of placeholder text for all your design needs. Whether you're creating a website, designing a brochure, or crafting the next great novel, our nonsensical text will help you fill in those empty
+                                                spaces with style.
+                                            </p>
+                                            <a href="#" class="btn_sm">See More</a>
+
+                                        </div>
+                                        <div class="dd_right">
+                                            <h3>Contact Name</h3>
+                                            <p>
+                                                Position
+                                            </p>
+                                            <p>
+                                                <a href="#">123-456-7890</a>
+                                            </p>
+                                            <p>
+                                                <a href="#">contact@2email.com</a>
+                                            </p>
+                                            <p>
+                                                <a href="#">123 Main Street <br>
+                                                    City, ST, 12345</a>
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="acc__card_sd">
+                                <div class="acc__title_sd">
+
+                                    <h2>Dept Title</h2>
+                                    <div class="acco_sign_sd">
+                                        <img src="img/arrow-down.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="acc__panel_sd">
+
+                                    <div class="dd-cont-row">
+                                        <div class="dd_left">
+                                            <p>
+                                                Welcome to the Lorem Ipsum Generator Pro, the ultimate source of placeholder text for all your design needs. Whether you're creating a website, designing a brochure, or crafting the next great novel, our nonsensical text will help you fill in those empty
+                                                spaces with style.
+                                            </p>
+                                            <a href="#" class="btn_sm">See More</a>
+
+                                        </div>
+                                        <div class="dd_right">
+                                            <h3>Contact Name</h3>
+                                            <p>
+                                                Position
+                                            </p>
+                                            <p>
+                                                <a href="#">123-456-7890</a>
+                                            </p>
+                                            <p>
+                                                <a href="#">contact@2email.com</a>
+                                            </p>
+                                            <p>
+                                                <a href="#">123 Main Street <br>
+                                                    City, ST, 12345</a>
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="pagination">
+                            <img src="img/pagination.png" alt="">
+                        </div>
+
+                    </div>
+
+                </div>
             </div>
         </div>
+
 
 
 
@@ -206,71 +340,18 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/owlmain.js"></script>
     <script>
-        $(document).on("scroll", function() {
-            if ($(document).scrollTop() > 0) {
-                $(".main_header").addClass("shrink");
-
-            } else {
-                $(".main_header").removeClass("shrink");
-
-            }
-        });
-    </script>
-    <script>
         (function($) {
             /* $('.accordion_event > li:eq(0) .acco_title').addClass('active').next().slideDown();*/
 
-            $('.acc__main .acc__title').click(function(j) {
-                var dropDown = $(this).closest('.acc__card').find('.acc__panel');
+            $('.acc__main_sd .acc__title_sd').click(function(j) {
+                var dropDown = $(this).closest('.acc__card_sd').find('.acc__panel_sd');
 
-                $(this).closest('.acc__main').find('.acc__panel').not(dropDown).slideUp();
+                $(this).closest('.acc__main_sd').find('.acc__panel_sd').not(dropDown).slideUp();
 
                 if ($(this).hasClass('active')) {
                     $(this).removeClass('active');
                 } else {
-                    $(this).closest('.acc__main').find('.acc__title.active').removeClass('active');
-                    $(this).addClass('active');
-                }
-
-                dropDown.stop(false, true).slideToggle();
-
-                j.preventDefault();
-            });
-        })(jQuery);
-    </script>
-    <script>
-        (function($) {
-            /* $('.accordion_event > li:eq(0) .acco_title').addClass('active').next().slideDown();*/
-
-            $('.service_acco .main_acco_sv').click(function(j) {
-                var dropDown = $(this).closest('.accordion_bk').find('.acco_panel_sv');
-
-                $(this).closest('.service_acco').find('.acco_panel').not(dropDown).slideUp();
-
-                if ($(this).hasClass('active')) {
-                    $(this).removeClass('active');
-                } else {
-                    $(this).closest('.service_acco').find('.main_acco_sv.active').removeClass('active');
-                    $(this).addClass('active');
-                }
-
-                dropDown.stop(false, true).slideToggle();
-
-                j.preventDefault();
-            });
-        })(jQuery);
-        (function($) {
-            /* $('.accordion_event > li:eq(0) .acco_title').addClass('active').next().slideDown();*/
-
-            $('.accordion_era .main_acco_title').click(function(j) {
-                var dropDown = $(this).closest('.accordion_block').find('.acco_panel');
-
-                $(this).closest('.accordion_era').find('.acco_panel').not(dropDown).slideUp();
-
-                if ($(this).hasClass('active')) {
-                    $(this).removeClass('active');
-                } else {
-                    $(this).closest('.accordion_era').find('.main_acco_title.active').removeClass('active');
+                    $(this).closest('.acc__main_sd').find('.acc__title_sd.active').removeClass('active');
                     $(this).addClass('active');
                 }
 
