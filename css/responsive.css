@@ -151,22 +151,6 @@
   .wp-block-group > h2.has-text-align-center {
     margin-bottom: 20px;
   }
-  .wp-block-media-text ul.listen_sec {
-    width: 100% !important;
-  }
-  .news_media_wrap .wp-block-group.listen ul {
-    padding-left: 15px !important;
-  }
-  .contact_wrap .cont_form_wrapper {
-    padding: 30px;
-  }
-  .contact_wrap .col_add_right {
-    padding: 30px;
-  }
-  .contact_wrap .dp_contact > * {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
   .detail_wrap .dp_content {
     max-width: 100%;
   }
@@ -192,44 +176,11 @@
   .directory_wrap .filter-container > div {
     margin-bottom: 10px;
   }
-  .pdcst_row .col_left,
-  .pdcst_row .col_right {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
   .nsRight {
     margin-top: 10px;
   }
   .news_list_info .newsBody {
     padding: 10px 0px 0 0 !important;
-  }
-  .news_media_wrap .news_media_txt {
-    grid-template-columns: auto !important;
-  }
-  .meeting-wraper .filterWrap-meet {
-    grid-template-columns: auto;
-  }
-  .news_m_content {
-    padding-top: 15px;
-  }
-  .podcast_wrap .pdc_filter_sort {
-    grid-template-columns: auto;
-  }
-  .podcast_wrap .pdc_filer {
-    margin-bottom: 0px;
-  }
-  .pdc_sort {
-    margin-bottom: 10px;
-  }
-  .pdc_list_info {
-    padding-top: 20px;
-  }
-  .pdc_dt_content {
-    padding-top: 15px;
-  }
-  .podcast_wrap .pdc_list_info .row.no-img .right_col {
-    padding-left: 15px;
-    padding-right: 15px;
   }
   .event_wraper .row_evt {
     grid-template-columns: auto;
@@ -249,46 +200,8 @@
   .event_top_filter .search_filter_title {
     grid-template-columns: auto;
   }
-  .single_event_wrap .evt_slider .owl-prev {
-    left: 0px;
-  }
-  .single_event_wrap .evt_slider .owl-next {
-    right: 0px;
-  }
-  .single_event_wrap .evt_slider .post-slide {
-    width: 85%;
-    margin: 0 auto;
-  }
   .meeting-wraper .filterWrap-meet .sm-padding {
     padding-top: 0;
-  }
-  .search_row {
-    grid-template-columns: auto;
-  }
-  .search_row .btn_row {
-    padding-left: 0;
-    padding-top: 15px;
-  }
-  .search_row .btn_row a {
-    margin-bottom: 5px;
-  }
-  .filter_export {
-    grid-template-columns: auto;
-  }
-  .filter_export .left_column {
-    grid-template-columns: auto;
-  }
-  .filter_export .left_column .filter_section {
-    padding-top: 10px;
-  }
-  .filter_export form {
-    grid-template-columns: auto !important;
-  }
-  .filter_export form div {
-    margin-bottom: 5px;
-  }
-  .filter_export .right_column .btn_row {
-    justify-content: flex-start;
   }
   .wp-block-spacer.space-100 {
     height: 10px !important;
@@ -305,9 +218,6 @@
   .wp-block-advgb-table th {
     font-size: 16px;
   }
-  .main_wrapper.watermark::after {
-    display: none;
-  }
   .faq_main .search-filter-title {
     grid-template-columns: auto;
     grid-row-gap: 10px;
@@ -317,12 +227,6 @@
   }
   .for-desk {
     display: none;
-  }
-  .innerHero .tripPlanner .search_wrap > div {
-    margin-bottom: 0px;
-  }
-  .innerHero .tripPlanner_wrap .search_wrap {
-    grid-column-gap: 0px;
   }
   .advgb-tabs-wrapper.advgb-tab-vert-desktop div.advgb-tab-body {
     padding-left: 0 !important;
@@ -382,12 +286,6 @@
   .contactcard_row .tel_em_fax {
     margin-top: 0px;
   }
-  .back_next_posts .prev_link {
-    position: static;
-  }
-  .page-id-30676 .table-wrapper table {
-    min-width: 600px;
-  }
   .advgb-tabs-wrapper ul.advgb-tabs-panel li.advgb-tab.advgb-tab.advgb-tab-active {
     border-right: 1px solid #B1ADAD !important;
     border-left: 1px solid #B1ADAD !important;
@@ -443,12 +341,6 @@
     width: 100px;
     height: 100px;
   }
-  .ftr-news {
-    display: block;
-  }
-  .ftr-news > div {
-    margin-bottom: 15px;
-  }
   .top-Title {
     justify-content: center !important;
     margin-bottom: 25px;
@@ -482,168 +374,22 @@
     padding-left: 20px;
     padding-right: 20px;
   }
-  .main-services {
-    padding-top: 0px;
-  }
-  .main-services .img_button_row {
-    margin: 0px;
-  }
   .NewsMettings {
     padding-top: 10px;
   }
-  .slider-main .slider_content {
-    padding-left: 25px;
-    padding-right: 25px;
-  }
-  .slider-main .slider_content::before {
-    width: 100%;
-  }
   .back_next_posts .next_link {
     position: static;
-  }
-  .advgb-recent-posts-block.grid-view {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .advgb-recent-posts-block.list-view .advgb-recent-post--no-image .advgb-post-wrapper {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .advgb-recent-posts-block.list-view .advgb-post-wrapper {
-    padding-left: 20px;
-    padding-top: 10px;
-  }
-  .slider-view .slick-prev {
-    left: 0px !important;
-  }
-  .slider-view .slick-next {
-    right: 0px !important;
-  }
-  .advgb-recent-posts-block.slider-view .advgb-recent-post {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-  .advgb-recent-posts-block.frontpage-view .advgb-recent-posts {
-    display: block !important;
-  }
-  .advgb-recent-posts-block .advgb-post-title {
-    min-height: 10px;
-  }
-  .advgb-recent-posts-block.frontpage-view .advgb-recent-posts .advgb-recent-post {
-    margin-bottom: 15px;
-  }
-  .advgb-recent-posts-block.masonry-view .advgb-recent-post {
-    width: 100% !important;
-    position: static !important;
-  }
-  .advgb-recent-posts-block.grid-view .advgb-recent-posts,
-  .advgb-recent-posts-block.list-view .advgb-recent-post {
-    grid-template-columns: auto !important;
-  }
-  .advgb-recent-posts-block.list-view .advgb-recent-post {
-    grid-row-gap: 0px !important;
-  }
-  .advgb-post-thumbnail a,
-  .advgb-post-thumbnail a img {
-    width: 100% !important;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-  .back_next_posts {
-    display: block;
-  }
-  .cancel-info {
-    padding: 1px 6px;
-    font-size: 11px;
-    min-width: 0px;
-  }
-  .main-tabs .nav-tabs li.current_page_item a::after {
-    bottom: -4px;
   }
   .filterWrap {
     max-width: 100%;
     padding-left: 0px;
   }
-  .innerHero .alert {
-    transform: none;
-    left: 0px;
-    min-width: 100%;
-  }
-  .service_acco .main_acco_sv {
-    padding-left: 15px;
-  }
-  .acco_panel {
-    padding: 30px;
-  }
-  .general-tabs .nav-tabs .nav-item a {
-    font-size: 16px;
-  }
-  .general-tabs {
-    padding-top: 10px;
-  }
-  .general-tabs .nav-tabs li {
-    width: 100%;
-  }
-  .general-tabs .tab-content {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  .general-tabs .tab-content .container {
-    padding: 0px;
-  }
-  .main-tabs .nav-tabs .nav-item {
-    width: 100%;
-  }
-  .main-tabs .nav-tabs .nav-item a {
-    width: 100%;
-  }
   .main_acco_title .acco_title_info {
     padding-left: 15px;
     padding-right: 15px;
   }
-  .meeting-wraper .agd_filter .filter_left,
-  .meeting-wraper .agd_filter .filter_right {
-    display: block;
-    width: 100%;
-  }
-  .rt-modal .rt-modal-info {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .destination-info .dest-row {
-    padding: 0px;
-    flex-wrap: wrap;
-  }
-  .destination-info .input-group-one {
-    flex: auto;
-    width: 100%;
-  }
-  .destination-info .to-text {
-    width: 100%;
-    text-align: center;
-  }
-  .route-detail-info .container-fluid {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  .destination-info .input-group-one .form-control {
-    font-size: 16px;
-  }
-  .accostpanel {
-    overflow: auto;
-  }
-  .accostpanel table td {
-    font-size: 12px;
-    padding: 6px;
-  }
-  .accoRt_block .alerticon {
-    left: 0px;
-  }
   .wp-block-advgb-accordions .advgb-accordion-header .advgb-accordion-header-title {
     font-size: 16px;
-  }
-  .mt_row_wrap .mt_content .mt_img img {
-    height: auto !important;
   }
   .img_text_card_row .img_text_card_col.one .text-img-wrap {
     grid-template-columns: auto;
@@ -694,16 +440,6 @@
   }
   .filter_box.col-two label {
     display: none;
-  }
-  .artist_detail .artist_info {
-    padding-right: 0;
-  }
-  .event_banner .evt_banner_content {
-    padding: 30px 20px 30px 20px;
-  }
-  .event_wraper .event_top_filter {
-    grid-template-columns: auto;
-    grid-row-gap: 15px;
   }
   .resultWraper .searchFilterBlock {
     padding-top: 0;
@@ -812,63 +548,20 @@
   }
 }
 @media (min-width: 768px) and (max-width: 992px) {
-  .filter_export .right_column {
-    grid-column: 1/4;
-    padding-top: 30px;
-  }
-  .filter_export .right_column .btn_row {
-    justify-content: flex-start;
-    margin-top: 20px;
-  }
-  .meeting-wraper .agd_filter .filter_right {
-    width: 25%;
-  }
-  .meeting-wraper .agd_filter .filter_left {
-    width: 75%;
-    grid-template-columns: 240px 130px 130px;
-  }
   .expanding-grid .links > li {
     width: 33.3% !important;
   }
-  .signup-box {
-    padding-left: 25px;
-    padding-right: 25px;
-  }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
-  .contact_wrap .col_add_right {
-    margin-left: 0px !important;
-  }
   .directory_wrap .dd_search_filter {
     display: block;
   }
   .directory_wrap .filter-container {
     padding-top: 15px;
   }
-  .dp_sidebar {
-    right: 10px;
-  }
-  .dp_sidebar .sidebar_box {
-    width: 260px;
-  }
   .img_button_row .img_btn_col {
     flex: 0 0 50%;
     max-width: 50%;
-  }
-  .page-id-31040 .advgb-column-inner {
-    margin-left: 15px !important;
-    margin-right: 15px !important;
-  }
-  .rt-modal .rt-modal-info {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .general-tabs .tab-content {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  .advgb-recent-posts-block.grid-view .advgb-recent-posts {
-    grid-template-columns: 1fr 1fr !important;
   }
   .nsRight .newsSort {
     width: 200px;
@@ -880,19 +573,12 @@
   .search_filter_title .filter_box {
     margin-right: 4px !important;
   }
-  .mt_card_col {
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
   .contact_col {
     flex: 0 0 50%;
     max-width: 50%;
   }
   .news_wraper .newsRow .newsColumn {
     width: 33.3%;
-  }
-  .advgb-recent-posts-block.grid-view .advgb-recent-posts {
-    grid-template-columns: 1fr 1fr !important;
   }
   .img_button_row.four .img_btn_col,
   .img_text_card_row.four .img_text_card_col,
@@ -906,14 +592,6 @@
   .main_banner .carousel-item img {
     min-height: 500px;
   }
-  .newsInRow .col-md-9,
-  .newsInRow .nsRight {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-  .nsRight .newsSort {
-    margin-left: 0px;
-  }
 }
 @media (min-width: 768px) {
   .for_mob {
@@ -926,20 +604,6 @@
   }
   .for-mob {
     display: none;
-  }
-  .page-id-31042 .wp-block-heading + ul {
-    position: relative;
-    left: 30px;
-  }
-  .no-match {
-    padding-top: 70px;
-    padding-left: 20px;
-  }
-  .event_banner_img {
-    margin-top: -50px;
-  }
-  .evt_banner_row .col_right {
-    padding-right: 0px;
   }
 }
 @media (min-width: 1200px) {
@@ -962,24 +626,6 @@
   .logged-in .alert-area {
     top: 148px;
   }
-  .detail-row .det-left-col {
-    flex: 0 0 25%;
-    max-width: 25%;
-  }
-  .detail-row .det-right-col {
-    flex: 0 0 75%;
-    max-width: 75%;
-  }
-}
-@media (min-width: 992px) {
-  .col--left {
-    flex: 0 0 72%;
-    max-width: 72%;
-  }
-  .col--right {
-    flex: 0 0 28%;
-    max-width: 28%;
-  }
 }
 @media (max-width: 992px) {
   .container-fluid {
@@ -1000,43 +646,11 @@
   .news-dt-content {
     padding-top: 20px;
   }
-  .accoRt_block .rtTitle {
-    flex-wrap: wrap;
-  }
-  .accoRt_block .rtTitleWrap {
-    width: 100%;
-    padding-bottom: 6px;
-  }
-  .accoRt_block .rtTitleWrap p {
-    padding-left: 30px;
-  }
 }
 @media (max-width: 1199.9px) {
   .main_content ul li a,
   .main_content ol li a {
     word-wrap: break-word;
-  }
-  .main_header .megamenu {
-    position: static;
-    width: 100%;
-    transform: none;
-    box-shadow: none;
-    border-top: 5px solid #0033A1;
-    border-bottom: 5px solid #0033A1;
-    padding: 15px;
-  }
-  .main_header .megamenu a {
-    font-size: 16px;
-  }
-  .main_header .megamenu ul.sidemenu {
-    -moz-column-count: 1;
-         column-count: 1;
-  }
-  .main_header .megamenu li {
-    margin-bottom: 18px;
-  }
-  .fixed_btns {
-    display: none;
   }
   .alert-area {
     top: 75px;
@@ -1321,18 +935,6 @@
   }
   .main_header .navbar-nav > li:hover > a::after {
     display: none;
-  }
-  .main_header .social_media {
-    justify-content: flex-start;
-    order: 2;
-  }
-  .main_header .social_media a {
-    width: 30px;
-    height: 30px;
-  }
-  .tripPlanner_wrap {
-    width: calc(100% - 40px);
-    left: 20px;
   }
   .main_banner .carousel {
     justify-content: flex-start;
