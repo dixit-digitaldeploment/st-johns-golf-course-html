@@ -1,23 +1,20 @@
-$primary:#337D58;
-$secondary:#43546A;
-$tertiary:#92705D;
-$green:#337D58;
+$primary:#1A3021;
+$secondary:#8EA986;
+$tertiary:#BCDDB2;
+$gray:#343A40;
+$white:#ffffff;
+$darkgray:#231F20;
+$black:#000000;
+$blue:#003B71;
+$green:#37583C;
+$lightgray:#F7F7F7;
+
 $gold:#9D863B;
 $sand:#CCBE9E;
-$blue:#43546A;
 $mint:#BDDCC8;
 $sage:#BFC2A8;
 $lightblue:#E9EEF5;
 $darkblue:#034165;
-$lato: "Lato",
-sans-serif;
-$popins: "Poppins",
-sans-serif;
-$black:#070B0F;
-$white:#ffffff;
-$gray:#4D4D50;
-$lightgray:#EEEEEE;
-$darkgray:#A8A8A8;
 $red:#B61717;
 $border-color:#DCE0E6;
 // color paltte - 
@@ -34,3 +31,5 @@ $colors:( "primary":$primary, "secondary":$secondary, "green":#337D58, "black":#
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
+$lato: "Open Sans", serif;
+$popins: "Work Sans", serif;

@@ -23,6 +23,12 @@ $breakpoints:( "xs":0, "sm":480px, "md":768px, "lg":992px, "xl":1200px, );
     }
 }
 
+@mixin desklg {
+    @media( min-width: map-get($breakpoints, 'xl')) {
+        @content;
+    }
+}
+
 //ini custom breakpoints
 @mixin breakpoint($bp:0) {
     @media (min-width: $bp) {

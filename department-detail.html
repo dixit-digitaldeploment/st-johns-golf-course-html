@@ -329,6 +329,82 @@
 
 
 
+                            <section class="accordion_era">
+                                <div class="accordion_block ">
+                                    <div class="main_acco_title">
+                                        <div class="date_meet">
+                                            Day <br>Date <br>Time
+                                        </div>
+                                        <div class="acco_title_info">
+                                            <h2>Meeting Name</h2>
+                                            <p>Meeting location</p>
+
+                                        </div>
+                                        <div class="accosign"> <img src="img/arrow-down.svg" alt="arrow"> </div>
+                                    </div>
+                                    <div class="acco_panel">
+                                        <h3>Planning and Zoning Commission</h3>
+                                        <p>
+                                            Welcome to the Lorem Ipsum Generator Pro, the ultimate source of placeholder text for all your design needs. Whether you're creating a website, designing a brochure, or crafting the next great novel, our nonsensical text will help you fill in those empty
+                                            spaces with style.
+                                        </p>
+
+
+                                        <div class="location">
+                                            <p>
+                                                <strong>Location</strong> <br>City Hall <br>
+                                                <a href="#">123 Main Street City,<br>ST, 12345</a>
+                                            </p>
+                                        </div>
+                                        <p class="mt-date">
+                                            Tuesday, August 01, 2024 <br> 10:00am - 12:00pm
+                                        </p>
+                                        <a href="#">ADD TO CALENDAR</a> <br>
+
+
+                                        <a href="#" class="btn_sm">Learn More About Meeting</a>
+                                    </div>
+                                </div>
+                                <div class="accordion_block ">
+                                    <div class="main_acco_title">
+                                        <div class="date_meet">
+                                            Day <br>Date <br>Time
+                                        </div>
+                                        <div class="acco_title_info">
+                                            <h2>Meeting Name</h2>
+                                            <p>Meeting location</p>
+
+                                        </div>
+                                        <div class="accosign"> <img src="img/arrow-down.svg" alt="arrow"> </div>
+                                    </div>
+                                    <div class="acco_panel">
+                                        <h3>Planning and Zoning Commission</h3>
+                                        <p>
+                                            Welcome to the Lorem Ipsum Generator Pro, the ultimate source of placeholder text for all your design needs. Whether you're creating a website, designing a brochure, or crafting the next great novel, our nonsensical text will help you fill in those empty
+                                            spaces with style.
+                                        </p>
+
+
+                                        <div class="location">
+                                            <p>
+                                                <strong>Location</strong> <br>City Hall <br>
+                                                <a href="#">123 Main Street City,<br>ST, 12345</a>
+                                            </p>
+                                        </div>
+                                        <p class="mt-date">
+                                            Tuesday, August 01, 2024 <br> 10:00am - 12:00pm
+                                        </p>
+                                        <a href="#">ADD TO CALENDAR</a> <br>
+
+
+                                        <a href="#" class="btn_sm">Learn More About Meeting</a>
+                                    </div>
+                                </div>
+
+                            </section>
+
+
+
 
 
 
@@ -494,6 +570,26 @@
                     $(this).removeClass('active');
                 } else {
                     $(this).closest('.acc__main').find('.acc__title.active').removeClass('active');
+                    $(this).addClass('active');
+                }
+
+                dropDown.stop(false, true).slideToggle();
+
+                j.preventDefault();
+            });
+        })(jQuery);
+        (function($) {
+            /* $('.accordion_event > li:eq(0) .acco_title').addClass('active').next().slideDown();*/
+
+            $('.accordion_era .main_acco_title').click(function(j) {
+                var dropDown = $(this).closest('.accordion_block').find('.acco_panel');
+
+                $(this).closest('.accordion_era').find('.acco_panel').not(dropDown).slideUp();
+
+                if ($(this).hasClass('active')) {
+                    $(this).removeClass('active');
+                } else {
+                    $(this).closest('.accordion_era').find('.main_acco_title.active').removeClass('active');
                     $(this).addClass('active');
                 }
 
