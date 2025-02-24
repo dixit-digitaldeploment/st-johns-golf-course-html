@@ -1296,7 +1296,7 @@ label.title {
 }
 
 .newsletter_sec {
-  background: linear-gradient(0deg, rgba(33, 37, 41, 0.7) 0%, rgba(33, 37, 41, 0.7) 100%), url("/img/newslettersec_bg.jpeg") lightgray 50%/cover no-repeat;
+  background: linear-gradient(0deg, rgba(33, 37, 41, 0.7) 0%, rgba(33, 37, 41, 0.7) 100%), url("./img/newslettersec_bg.jpeg") lightgray 50%/cover no-repeat;
   background-size: cover;
 }
 .newsletter_sec h2 {
