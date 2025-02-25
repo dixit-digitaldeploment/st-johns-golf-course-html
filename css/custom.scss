@@ -35,7 +35,7 @@ h1,
 .h1 {
     font-size: 38px;
     font-weight: 700;
-    color: $secondary;
+    color: $black;
     font-family: $popins;
 }
 
@@ -43,7 +43,7 @@ h2,
 .h2 {
     font-size: 32px;
     font-weight: 700;
-    color: $secondary;
+    color: $black;
     font-family: $popins;
 }
 
@@ -51,7 +51,7 @@ h3,
 .h3 {
     font-size: 24px;
     font-weight: 700;
-    color: $secondary;
+    color: $black;
     font-family: $popins;
 }
 
@@ -59,7 +59,7 @@ h4,
 .h4 {
     font-size: 21px;
     font-weight: 700;
-    color: $black;
+    color: $green;
     font-family: $popins;
 }
 
@@ -67,7 +67,7 @@ h5,
 .h5 {
     font-size: 16px;
     font-weight: 600;
-    color: $gray;
+    color: $black;
     font-family: $popins;
 }
 
@@ -75,7 +75,7 @@ h6,
 .h6 {
     font-size: 15px;
     font-weight: 600;
-    color: $gray;
+    color: $black;
     font-family: $lato;
 }
 
@@ -269,7 +269,7 @@ select {
     min-width: 130px;
     background-size: 16px;
     color: $black;
-    border-radius: 3px;
+    border-radius: 5px;
     min-height: 50px;
     font-size: 14px;
     font-weight: 500;
@@ -319,8 +319,8 @@ select {
 }
 
 label.title {
-    font-weight: 700;
-    @include lato;
+    font-weight: 600;
+    @include popins;
     font-size: 16px;
     color: $black;
 }
@@ -1554,21 +1554,21 @@ label.title {
                 margin-bottom: 10px;
             }
             .doc_block {
-                font-family:$popins;
+                font-family: $popins;
                 font-size: 18px;
                 font-style: normal;
                 font-weight: 400;
                 line-height: normal;
                 color: $white;
                 text-decoration: none;
-                &:hover{
+                &:hover {
                     text-decoration: underline;
                 }
             }
         }
-        .copyright{
+        .copyright {
             color: $white;
-            a{
+            a {
                 color: inherit;
             }
         }
@@ -1648,7 +1648,7 @@ label.title {
 }
 
 .main_breadcrumb {
-    padding-top: 5px;
+    padding: 16px 0;
     font-family: $lato;
     .container {
         max-width: 100%;
@@ -1659,15 +1659,16 @@ label.title {
     .breadcrumb {
         background: none;
         margin: 0px;
-        padding-left: 10px;
-        padding-right: 30px;
+        // padding-left: 10px;
+        // padding-right: 30px;
         font-size: 14px;
         text-transform: uppercase;
-        padding-top: 6px;
-        padding-bottom: 6px;
+        padding-top: 0px;
+        padding-bottom: 0px;
         align-items: center;
+        gap: 8px;
         a {
-            color: $gray;
+            color: $green;
             font-weight: 700;
             text-decoration: none;
             &:hover {
@@ -1675,10 +1676,14 @@ label.title {
                 text-decoration: underline;
             }
         }
+        .breadcrumb-item{
+            gap: 8px;
+            align-items: center;
+        }
         li.active {
-            color: $gray;
-            font-weight: normal;
-            font-size: 14px;
+            color: $black;
+            font-weight: 700;
+            // font-size: 14px;
         }
         li:first-child a {
             font-weight: 800;
@@ -1693,11 +1698,14 @@ label.title {
         background: url(../img/Down_small.svg);
         background-repeat: repeat;
         background-repeat: no-repeat;
-        margin-top: 4px;
-        margin-right: 3px;
-        margin-left: 3px;
-        padding-right: 5px;
-        padding-left: 5px;
+        // margin-top: 4px;
+        // margin-right: 3px;
+        // margin-left: 3px;
+        // padding-right: 5px;
+        // padding-left: 5px;
+        width: 10px;
+        height: 13px;
+        background-size: contain;
     }
     .breadcrumb-item + .breadcrumb-item {
         padding-left: 3px;
@@ -1708,7 +1716,7 @@ label.title {
 
 .page_title {
     padding-top: 40px !important;
-    padding-bottom: 30px !important;
+    padding-bottom: 40px !important;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1722,7 +1730,7 @@ label.title {
 }
 
 .main_breadcrumb + .page_title {
-    padding-top: 20px !important;
+    padding-top: 40px !important;
 }
 
 .generic_middle_block {
@@ -2585,15 +2593,21 @@ h2 + .expand_img_grid {
     max-width: 800px;
     margin: auto;
     h1 {
-        font-size: 130px;
-        margin-bottom: 20px;
+        font-size: 85px;
+        font-style: normal;
+        font-weight: 800;
+        margin-bottom: 8px;
     }
     h2 {
-        font-size: 22px;
+        color: $black;
+        text-align: center;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 700;
     }
     .btn_sm {
-        min-width: 180px;
-        margin-top: 20px;
+        // min-width: 180px;
+        margin-top: 16px;
     }
     .search404 {
         max-width: 345px;
@@ -2673,25 +2687,27 @@ h2 + .expand_img_grid {
 
 /* result page start */
 
-.page_title.resut_title {
-    padding-bottom: 10px !important;
+// .page_title.resut_title {
+//     padding-bottom: 10px !important;
+// }
+.main_search{
+    padding: 32px 0;
+    background: $lightgray;
 }
-
 .main_search_content {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: $white;
-    padding: 15px 15px 40px 15px;
+    // padding: 15px 15px 40px 15px;
     flex-direction: column;
     max-width: 300px;
     margin: 0 auto;
     .h5 {
         margin-right: 0px;
         margin-bottom: 15px;
-        font-family: $popins;
-        font-size: 20px;
-        font-weight: 600;
+        font-family: $lato;
+        font-size: 16px;
+        font-weight: 700;
         color: $gray;
     }
     .search_box {
@@ -2885,26 +2901,31 @@ h2 + .expand_img_grid {
     margin-bottom: 20px;
     border-radius: 0px;
     position: relative;
+    background: $white;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15);
     h3,
     h4,
     h5,
     h2 {
-        font-size: 22px;
+        font-size: 21px;
         font-weight: 700;
-        margin-bottom: 10px;
+        margin-bottom: 8px;
+        color: $green;
     }
     .re_category {
-        font-weight: 700;
-        background: #bddcc8;
-        font-size: 16px;
-        font-family: "Lato", sans-serif;
-        color: #4d4d50;
-        padding: 5px 12px;
-        display: inline-block;
+        // font-weight: 700;
+        // background: #bddcc8;
+        // font-size: 16px;
+        // font-family: "Lato", sans-serif;
+        // color: #4d4d50;
+        // padding: 5px 12px;
+        // display: inline-block;
+        @include meta;
+        margin-bottom: 8px;
+        color: $gray;
     }
     .rsltBody {
-        padding: 15px;
+        padding: 16px;
     }
     > a {
         display: block;
@@ -2915,6 +2936,7 @@ h2 + .expand_img_grid {
     &:hover {
         h3 {
             text-decoration: underline;
+            color: $blue;
         }
     }
 }
@@ -2930,6 +2952,11 @@ h2 + .expand_img_grid {
         grid-template-columns: 1fr 1fr 1fr;
         grid-column-gap: 20px;
         padding-bottom: 10px;
+        .form-group.sort_group {
+            @media screen and (min-width:768px) {
+                grid-column-start: 3;
+            }
+        }
         select {
             min-width: 220px;
         }
@@ -2940,8 +2967,13 @@ h2 + .expand_img_grid {
 }
 
 .resull_filter {
-    padding: 35px 0px 40px 0px;
+    padding: 40px 0px;
     .container {
+        .heading{
+            max-width: 900px;
+            margin: auto;
+            margin-bottom: 32px;
+        }
     }
 }
 
