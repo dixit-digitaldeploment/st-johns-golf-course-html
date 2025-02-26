@@ -1705,7 +1705,7 @@ label.title {
   text-decoration: underline;
 }
 .doc_block:hover img {
-  filter: brightness(0) saturate(100%) invert(38%) sepia(36%) saturate(664%) hue-rotate(98deg) brightness(97%) contrast(82%);
+  filter: brightness(0) saturate(100%) invert(16%) sepia(32%) saturate(5614%) hue-rotate(192deg) brightness(90%) contrast(105%);
 }
 
 .topTitle {

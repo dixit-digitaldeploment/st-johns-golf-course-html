@@ -1815,7 +1815,7 @@ label.title {
         color: $blue;
         @include underline;
         img {
-            @include img-green;
+            filter: brightness(0) saturate(100%) invert(16%) sepia(32%) saturate(5614%) hue-rotate(192deg) brightness(90%) contrast(105%);
         }
     }
 }
