@@ -217,12 +217,10 @@ strong {
 }
 
 span.date {
-    font-weight: 700;
-    font-family: $lato;
     color: $gray;
-    font-size: 16px;
     display: block;
     margin-bottom: 10px;
+    @include meta;
 }
 
 .container {
@@ -1588,7 +1586,7 @@ label.title {
 
 .lightgray,
 .lightgrey {
-    background-color: #eee;
+    background-color: #f7f7f7;
 }
 
 .blue {
@@ -1600,7 +1598,7 @@ label.title {
 }
 
 .main_wrapper > section {
-    padding: 50px 0px;
+    padding: 40px 0px;
 }
 
 .main_wrapper {
@@ -1676,7 +1674,7 @@ label.title {
                 text-decoration: underline;
             }
         }
-        .breadcrumb-item{
+        .breadcrumb-item {
             gap: 8px;
             align-items: center;
         }
@@ -1798,9 +1796,9 @@ label.title {
 
 .doc_block {
     display: block;
-    color: $secondary;
+    color: $green;
     font-size: 16px;
-    font-weight: 800;
+    font-weight: 700;
     margin-bottom: 10px;
     @include lato;
     text-decoration: underline;
@@ -1814,7 +1812,7 @@ label.title {
         margin-right: 10px;
     }
     &:hover {
-        color: $green;
+        color: $blue;
         @include underline;
         img {
             @include img-green;
@@ -1824,7 +1822,7 @@ label.title {
 
 .topTitle {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 24px;
 }
 
 .link_text {
@@ -1888,7 +1886,7 @@ label.title {
 //page builder image text cards
 .img_text_card_row {
     .img_text_card_col {
-        padding: 0px 6px;
+        padding: 0px 8px;
         margin-bottom: 15px;
         > a:hover {
             text-decoration: none;
@@ -1916,7 +1914,7 @@ label.title {
         }
     }
     .text-img-wrap {
-        background: $lightgray;
+        background: $white;
         height: 100%;
         display: flex;
         flex-direction: column;
@@ -1934,12 +1932,16 @@ label.title {
         .img_card_block {
             img {
                 width: 100%;
-                aspect-ratio: 3/2;
+                aspect-ratio: 144/101;
             }
         }
         .text_card_block {
-            padding: 20px 25px;
+            padding: 16px;
             height: auto;
+            h3 {
+                color: $green;
+                font-size: 21px;
+            }
             p {
                 margin-bottom: 10px;
             }
@@ -1947,6 +1949,7 @@ label.title {
         a:hover {
             h3 {
                 text-decoration: underline;
+                color: $blue;
             }
             .btn_learn {
                 color: #097f8e;
@@ -1972,9 +1975,10 @@ label.title {
             }
         }
         &:hover a .text_card_block {
-            background: #cbcdbe;
+            // background: #cbcdbe;
             .h3 {
                 text-decoration: underline;
+                color: $blue;
             }
         }
     }
@@ -2020,22 +2024,22 @@ label.title {
     justify-content: center;
     .img_btn_col {
         margin-bottom: 15px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 12px;
+        padding-right: 12px;
         a:focus .img_block::before {
-            background: linear-gradient(0deg, rgba(51, 125, 88, 0.9) 0%, rgba(51, 125, 88, 0.9) 100%);
+            // background: linear-gradient(0deg, rgba(51, 125, 88, 0.9) 0%, rgba(51, 125, 88, 0.9) 100%);
         }
     }
     .img_block {
         position: relative;
         overflow: hidden;
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        // box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
         &:before {
             content: "";
             position: absolute;
             width: 100%;
             height: 100%;
-            background: linear-gradient(0deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
+            // background: linear-gradient(0deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
         }
         &.no-img {
             min-height: 200px;
@@ -2068,15 +2072,15 @@ label.title {
         }
         img {
             width: 100%;
-            aspect-ratio: 1/1;
+            aspect-ratio: 141/115;
             object-fit: cover;
         }
         .img_block_descr {
-            position: absolute;
+            // position: absolute;
             bottom: 5px;
             left: 0;
             width: 100%;
-            color: #fff;
+            color: $green;
             text-align: left;
             padding: 10px 10px;
             height: 100%;
@@ -2086,7 +2090,7 @@ label.title {
             p,
             h3,
             .h3 {
-                color: #fff;
+                color: inherit;
                 display: flex;
                 align-items: center;
                 img {
@@ -2101,16 +2105,20 @@ label.title {
                 margin-bottom: 0px;
             }
         }
-        &:hover {
-            &::before {
-                background: linear-gradient(0deg, rgba(51, 125, 88, 0.9) 0%, rgba(51, 125, 88, 0.9) 100%);
-            }
-            .h3 {
-                text-decoration: underline;
-            }
-        }
         > a {
             display: block;
+            text-decoration: none;
+        }
+        &:hover {
+            > a {
+                text-decoration: underline;
+            }
+            &::before {
+                // background: linear-gradient(0deg, rgba(51, 125, 88, 0.9) 0%, rgba(51, 125, 88, 0.9) 100%);
+            }
+            .h3 {
+                color: $blue;
+            }
         }
     }
 }
@@ -2123,9 +2131,9 @@ label.title {
 }
 
 .simple_list_col {
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-bottom: 20px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-bottom: 24px;
     a {
         color: $black;
         display: -webkit-box;
@@ -2136,13 +2144,13 @@ label.title {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
-        min-height: 60px;
+        min-height: 50px;
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
-        font-size: 18px;
-        padding: 10px;
-        background: #ccbe9e;
+        font-size: 16px;
+        padding: 16px 24px;
+        background: $tertiary;
         border-radius: 0px;
         font-weight: 600;
         height: 100%;
@@ -2151,6 +2159,8 @@ label.title {
         transition: background-color 0.3s ease-in-out;
         font-family: $popins;
         text-decoration: none;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
         &:hover {
             color: #fff;
             background-color: $green;
@@ -2217,7 +2227,7 @@ label.title {
     .how_row {
         -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
-        margin-bottom: 10px;
+        margin-bottom: 24px;
         h6 {
             margin-bottom: 0px;
         }
@@ -2237,17 +2247,25 @@ label.title {
             -ms-flex-align: center;
             align-items: center;
             margin-right: 20px;
-            color: $secondary;
+            color: $green;
             font-weight: 600;
             font-size: 18px;
-            border: 2px solid $secondary;
-            font-family: $popins;
+            border: 2px solid $green;
+            font-family: "Nunito Sans";
         }
         .how_title {
-            color: $gray;
+            color: $black;
+            margin-bottom: 3px;
         }
         p.how_title {
-            margin-bottom: 5px;
+            margin-bottom: 3px;
+        }
+        .desc {
+            p {
+                &:last-child {
+                    margin: 0;
+                }
+            }
         }
     }
 }
@@ -2255,7 +2273,7 @@ label.title {
 //ContacT Cards
 .contactcard_row {
     .contact_col {
-        padding: 0px 6px;
+        padding: 0px 12px;
         margin-bottom: 10px;
         display: flex;
         flex-direction: column;
@@ -2269,28 +2287,33 @@ label.title {
         align-items: flex-start;
         text-align: left;
         span.h4 {
-            font-family: $lato;
+            font-family: $popins;
             font-size: 16px;
             font-weight: normal;
             margin-bottom: 0px;
+            color: $black;
         }
     }
     .contact_box {
-        box-shadow: 0px 1px 3px #00000029;
+        @include shadow;
         border: 1px solid #e8e9ea;
         background: $white;
-        height: 100%;
+        border-radius: 5px;
+        // height: 100%;
         p {
             margin-bottom: 5px;
         }
         h3 {
-            min-height: 35px;
+            // min-height: 35px;
+            font-size: 21px;
+            margin-bottom: 8px;
         }
         .cont_img {
             img {
                 width: 100%;
-                height: 280px;
+                height: 292px;
                 object-fit: cover;
+                aspect-ratio: 141/146;
             }
         }
         &.no-img {
@@ -2301,20 +2324,20 @@ label.title {
     }
     .tel_em_fax {
         margin-top: 0;
-        padding-top: 10px;
+        padding-top: 16px;
         strong {
             color: $black;
         }
         a {
-            color: $secondary;
+            color: $green;
             font-weight: 700;
             &:hover {
                 text-decoration: underline;
-                color: $green;
+                color: $blue;
             }
         }
         p {
-            margin-bottom: 3px;
+            margin-bottom: 16px;
         }
         p.adress {
         }
@@ -2431,9 +2454,10 @@ h2 + .expand_img_grid {
         background: $white;
         position: relative;
         @include shadow;
+        border-radius: 0px 0px 5px 5px;
         &:hover {
             h3 {
-                color: $green;
+                color: $blue;
                 text-decoration: underline;
             }
         }
@@ -2447,19 +2471,21 @@ h2 + .expand_img_grid {
             margin-bottom: 0px;
         }
         h3 {
+            font-size: 21px;
+            color: $green;
         }
     }
     .links {
         display: block;
         overflow: hidden;
         padding: 1em 0;
-        margin: 0px -8px;
+        margin: 0px -12px;
         padding-top: 0px;
         > li {
             -webkit-box-sizing: border-box;
             box-sizing: border-box;
             float: left;
-            padding: 0px 8px;
+            padding: 0px 12px;
             width: 25%;
             list-style: none;
             margin-bottom: 16px;
@@ -2487,7 +2513,7 @@ h2 + .expand_img_grid {
     .expand_img {
         img {
             width: 100%;
-            aspect-ratio: 3/2;
+            aspect-ratio: 282/238.98;
             object-fit: cover;
         }
     }
@@ -2506,6 +2532,7 @@ h2 + .expand_img_grid {
         background: $white;
         box-shadow: 0px 0px 3px #00000029;
         border: 1px solid #e8e9ea;
+        padding: 48px;
     }
     .expanding-container.expanded,
     .expanding-grid .expanding-container:target {
@@ -2542,7 +2569,6 @@ h2 + .expand_img_grid {
         }
     }
     .expand-content {
-        padding: 30px 30px;
         margin: 0 auto;
         max-width: 900px;
     }
@@ -2690,7 +2716,7 @@ h2 + .expand_img_grid {
 // .page_title.resut_title {
 //     padding-bottom: 10px !important;
 // }
-.main_search{
+.main_search {
     padding: 32px 0;
     background: $lightgray;
 }
@@ -2818,7 +2844,7 @@ h2 + .expand_img_grid {
 }
 
 .acc__card {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.15);
     border: 0;
     border-radius: 0px;
@@ -2829,8 +2855,8 @@ h2 + .expand_img_grid {
     border-radius: 0px;
     display: flex;
     align-items: center;
-    min-height: 55px;
-    padding: 10px 24px;
+    // min-height: 55px;
+    padding: 16px;
     border: 0;
     padding-right: 40px;
     cursor: pointer;
@@ -2838,9 +2864,9 @@ h2 + .expand_img_grid {
     border-radius: 0px;
     h3 {
         margin: 0px;
-        font-size: 22px !important;
+        font-size: 21px !important;
         font-weight: 700 !important;
-        color: #43546a;
+        color: $green;
     }
     .h4 {
         margin-bottom: 0px;
@@ -2848,10 +2874,11 @@ h2 + .expand_img_grid {
     .acco_sign {
         position: absolute;
         right: 20px;
-        top: 20px;
+        top: 50%;
         display: flex;
         align-items: center;
         justify-content: center;
+        transform: translateY(-50%);
         img {
             width: 18px;
         }
@@ -2859,12 +2886,15 @@ h2 + .expand_img_grid {
     &.active {
         .acco_sign img {
             transform: rotate(180deg);
-            filter: brightness(0) saturate(100%) invert(46%) sepia(26%) saturate(472%) hue-rotate(337deg)
-                brightness(95%) contrast(89%);
+            filter: brightness(0) saturate(100%) invert(12%) sepia(11%) saturate(2085%) hue-rotate(86deg) brightness(98%) contrast(88%);
         }
     }
     &:hover {
-        background: #cbcdbe;
+        background: $tertiary;
+        h3 {
+            color: $primary;
+            text-decoration: underline;
+        }
         .acco_sign {
             img {
             }
@@ -2875,11 +2905,16 @@ h2 + .expand_img_grid {
 .acc__panel {
     display: none;
     border-top: 0;
-    padding: 10px 25px;
+    padding: 32px;
     background: #fff;
     padding-top: 8px;
     .links_wrap a {
         font-size: 16px;
+    }
+    p{
+        &:last-child{
+            margin: 0;
+        }
     }
 }
 
@@ -2953,7 +2988,7 @@ h2 + .expand_img_grid {
         grid-column-gap: 20px;
         padding-bottom: 10px;
         .form-group.sort_group {
-            @media screen and (min-width:768px) {
+            @media screen and (min-width: 768px) {
                 grid-column-start: 3;
             }
         }
@@ -2969,7 +3004,7 @@ h2 + .expand_img_grid {
 .resull_filter {
     padding: 40px 0px;
     .container {
-        .heading{
+        .heading {
             max-width: 900px;
             margin: auto;
             margin-bottom: 32px;
